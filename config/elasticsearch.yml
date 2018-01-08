@@ -28,3 +28,6 @@ discovery:
   zen:
     ping.unicast.hosts: ${DISCOVERY_SERVICE}
     minimum_master_nodes: ${NUMBER_OF_MASTERS}
+
+thread_pool.index.queue_size: ${THREAD_POOL_INDEX_QUEUE_SIZE}
+processors: ${PROCESSORS}
